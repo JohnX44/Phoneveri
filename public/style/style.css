@@ -1,0 +1,33 @@
+.hero-section {
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Gradient background */
+     /* White text for contrast */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 40px 20px; /* Adjust padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.hero-section:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+.btn-primary {
+    background-color: #ff4757; /* Vibrant button color */
+    border-color: #ff4757; /* Match border color */
+}
+
+.btn-primary:hover {
+    background-color: #e84118; /* Darker shade on hover */
+    border-color: #e84118; /* Match border color */
+}
+
+.form-control {
+    border-radius: 0.3rem; /* Rounded input fields */
+}
+.tnt{
+    color: white;
+}
